@@ -24,6 +24,7 @@ jobs:
     - name: Build and push image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./lab-02-docker-app
+        file: ./lab-02-docker-app/Dockerfile
         push: true
         tags: jmarcelotse/docker-node-app:latest
