@@ -70,3 +70,5 @@ Acesse seu repositório > Settings > Secrets > Actions
 - Imagem Docker publicada automaticamente a cada git push
 - GitHub Actions funcionando como pipeline de CI/CD
 - Projeto pronto para ser integrado ao deploy via Terraform ou Kubernetes
+
+Teste
